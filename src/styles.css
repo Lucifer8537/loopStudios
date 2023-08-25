@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Alata";
+  src: url("../src/fonts/Alata-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Josefin";
+  src: url("../src/fonts/JosefinSans-VariableFont_wght.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

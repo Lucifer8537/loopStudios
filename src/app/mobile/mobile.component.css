@@ -1,0 +1,210 @@
+.main {
+  position: relative;
+}
+.header {
+  background-image: url("../../assets/mobile/image-hero.jpg");
+  padding: 5%;
+  display: grid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Alata";
+}
+
+.logo-menu {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-content {
+  display: grid;
+  border: 2px solid white;
+  font-size: 263%;
+  font-family: "Josefin";
+  font-weight: 300;
+  width: 91%;
+  padding: 8% 0% 8% 8%;
+  margin-top: 50%;
+  margin-bottom: 54%;
+}
+
+.menu-open {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header-menu {
+  padding: 5%;
+  display: grid;
+  color: white;
+  font-family: "Alata";
+}
+
+.submenu-container {
+  font-family: "Josefin";
+  font-size: 190%;
+  font-weight: 300;
+  margin-top: 40%;
+}
+
+.submenu {
+  margin-bottom: 7%;
+}
+
+.main-container {
+  padding: 25% 5%;
+}
+
+.vr-image-container {
+  width: 100%;
+}
+
+.interactive {
+  width: 100%;
+}
+
+.vr-content-container {
+  font-family: "Josefin";
+  display: grid;
+  background-color: white;
+}
+
+.vr-heading {
+  font-size: 230%;
+  font-weight: 300;
+  margin: 10% 0%;
+  text-align: center;
+}
+
+.vr-content {
+  color: hsl(0, 0%, 41%);
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 1.5em;
+  text-align: center;
+}
+.our-creation-container {
+  margin-top: 25%;
+  display: grid;
+  font-family: "Josefin";
+}
+
+.our-creation-header {
+}
+
+.our-creation-title {
+  font-size: 220%;
+  text-align: center;
+  font-weight: 350;
+}
+
+.seeAll {
+  font-family: "Alata";
+  background-color: white;
+  padding: 2% 5%;
+  letter-spacing: 3px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-creation-content {
+  margin-top: 20%;
+  display: grid;
+}
+
+.deep-earth {
+  background-image: url("../../assets/mobile/image-deep-earth.jpg");
+}
+
+.night-arcade {
+  background-image: url("../../assets/mobile/image-night-arcade.jpg");
+}
+
+.soccer-team-vr {
+  background-image: url("../../assets/mobile/image-soccer-team.jpg");
+}
+
+.the-grid {
+  background-image: url("../../assets/mobile/image-grid.jpg");
+}
+
+.from-up-above-vr {
+  background-image: url("../../assets/mobile/image-from-above.jpg");
+}
+
+.pocket-borealis {
+  background-image: url("../../assets/mobile/image-pocket-borealis.jpg");
+}
+
+.the-curiosity {
+  background-image: url("../../assets/mobile/image-curiosity.jpg");
+}
+
+.make-it-fisheye {
+  background-image: url("../../assets/mobile/image-fisheye.jpg");
+}
+.game-container {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.game {
+  width: 100%;
+  color: white;
+  font-family: "Josefin";
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10%;
+}
+
+.game-title {
+  padding: 17% 56% 7% 7%;
+  font-family: "Josefin";
+  font-size: 130%;
+  font-weight: 300;
+  color: white;
+}
+
+.footer-container {
+  background-color: black;
+  padding: 15% 5%;
+  display: grid;
+}
+
+.footer-logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-menu-container {
+  color: white;
+  font-family: "Alata";
+  text-align: center;
+  font-size: 125%;
+  margin-top: 10%;
+}
+
+.submenu-footer {
+  margin-bottom: 5%;
+}
+
+.social-contianer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10% 15%;
+}
+
+.right-reserved-container {
+  color: hsl(0, 0%, 55%);
+  font-size: 110%;
+  font-weight: 800;
+  text-align: center;
+}

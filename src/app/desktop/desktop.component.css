@@ -1,0 +1,262 @@
+.main {
+}
+
+.header {
+  background-image: url("../../assets/desktop/image-hero.jpg");
+  padding: 50px 100px;
+  display: grid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Alata";
+}
+
+.logo-menu {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+}
+
+.menu {
+  display: flex;
+}
+
+.submenu {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.line {
+  visibility: hidden;
+  width: 20px;
+  height: 1px;
+  background-color: white;
+}
+
+.submenu:hover .line {
+  visibility: visible;
+}
+
+.header-content {
+  display: grid;
+  border: 2px solid white;
+  width: max-content;
+  font-size: 80px;
+  font-family: "Josefin";
+  font-weight: 300;
+  padding: 50px 100px;
+  margin-top: 160px;
+  margin-bottom: 50px;
+}
+
+.main-container {
+  padding: 120px;
+}
+
+.vr-image-container {
+  position: relative;
+}
+
+.interactive {
+}
+
+.vr-content-container {
+  width: 460px;
+  font-family: "Josefin";
+  display: grid;
+  position: absolute;
+  top: 35%;
+  background-color: white;
+  right: 50px;
+  padding: 100px;
+}
+
+.vr-heading {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.vr-content {
+  color: hsl(0, 0%, 41%);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.our-creation-container {
+  margin-top: 125px;
+  display: grid;
+  font-family: "Josefin";
+}
+
+.our-creation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.our-creation-title {
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.seeAll {
+  font-family: "Alata";
+  background-color: white;
+  padding: 5px 25px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.seeAll:hover {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.our-creation-content {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(var(--left), auto);
+  justify-content: space-between;
+}
+
+.deep-earth {
+  background-image: url("../../assets/desktop/image-deep-earth.jpg");
+}
+
+.night-arcade {
+  background-image: url("../../assets/desktop/image-night-arcade.jpg");
+}
+
+.soccer-team-vr {
+  background-image: url("../../assets/desktop/image-soccer-team.jpg");
+}
+
+.the-grid {
+  background-image: url("../../assets/desktop/image-grid.jpg");
+}
+
+.from-up-above-vr {
+  background-image: url("../../assets/desktop/image-from-above.jpg");
+}
+
+.pocket-borealis {
+  background-image: url("../../assets/desktop/image-pocket-borealis.jpg");
+}
+
+.the-curiosity {
+  background-image: url("../../assets/desktop/image-curiosity.jpg");
+}
+
+.make-it-fisheye {
+  background-image: url("../../assets/desktop/image-fisheye.jpg");
+}
+.game-container {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.game {
+  width: 300px;
+  color: white;
+  font-family: "Josefin";
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  height: 527px;
+  position: relative;
+  z-index: -2;
+}
+
+.game-container:hover .game {
+  opacity: 0.4;
+}
+
+.game-container:hover .game-title {
+  opacity: 1;
+  color: black;
+}
+
+.game-title {
+  padding: 0px 100px 0px 40px;
+  font-family: "Josefin";
+  font-size: 35px;
+  font-weight: 300;
+  position: absolute;
+  top: 400px;
+  color: white;
+}
+
+.footer-container {
+  background-color: black;
+  padding: 50px 120px;
+  display: grid;
+}
+
+.footer-logo-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+}
+
+.social-contianer {
+  display: flex;
+}
+
+.facebook {
+  margin-left: 15px;
+}
+
+.twitter {
+  margin-left: 15px;
+}
+
+.pininterest {
+  margin-left: 15px;
+}
+
+.instagram {
+  margin-left: 15px;
+}
+
+.footer-content {
+  color: white;
+  font-family: "Alata";
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.footer-menu-container {
+  display: flex;
+}
+
+.submenu-footer {
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.submenu-footer:hover .line {
+  visibility: visible;
+}
+
+.right-reserved-container {
+  color: hsl(0, 0%, 41%);
+}
+
+.social {
+  cursor: pointer;
+}
+.social:hover .line {
+  visibility: visible;
+}

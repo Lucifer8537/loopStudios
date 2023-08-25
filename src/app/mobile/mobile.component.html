@@ -1,0 +1,141 @@
+<div [ngStyle]="{ position: menu ? 'fixed' : 'relative' }" class="main">
+  <div class="header">
+    <div class="logo-menu">
+      <div class="logo">
+        <img src="../../assets/logo.svg" alt="logo" />
+      </div>
+      <div class="menu">
+        <img
+          src="../../assets/icon-hamburger.svg"
+          alt="icon-hamburger"
+          (click)="onClickMenu()"
+        />
+      </div>
+    </div>
+    <div class="header-content">
+      <span class="content">IMMERSIVE</span>
+      <span class="content">EXPERIENCES</span>
+      <span class="content">THAT</span>
+      <span class="content">DELIVER</span>
+    </div>
+  </div>
+  <div class="main-container">
+    <div class="vr-image-container">
+      <img
+        src="../../assets/mobile/image-interactive.jpg"
+        alt="image-interactive"
+        class="interactive"
+      />
+      <div class="vr-content-container">
+        <div class="vr-heading">THE LEADER IN INTERACTIVE VR</div>
+        <div class="vr-content">
+          Founded in 2011, Loopstudios has been producing world-class virtual
+          reality projects for some of the best companies around the globe. Our
+          award-winning creations have transformed businesses through digital
+          experiences that bind to their brand.
+        </div>
+      </div>
+    </div>
+    <div class="our-creation-container">
+      <div class="our-creation-header">
+        <div class="our-creation-title">OUR CREATIONS</div>
+      </div>
+      <div class="our-creation-content">
+        <div class="game deep-earth">
+          <div class="game-title">DEEP EARTH</div>
+        </div>
+
+        <div class="game night-arcade">
+          <div class="game-title">NIGHT ARCADE</div>
+        </div>
+
+        <div class="game soccer-team-vr">
+          <div class="game-title">SOCCER TEAM VR</div>
+        </div>
+
+        <div class="game the-grid">
+          <div class="game-title">THE GRID</div>
+        </div>
+
+        <div class="game from-up-above-vr">
+          <div class="game-title">FROM UP ABOVE VR</div>
+        </div>
+
+        <div class="game pocket-borealis">
+          <div class="game-title">POCKET BOREALIS</div>
+        </div>
+
+        <div class="game the-curiosity">
+          <div class="game-title">THE CURIOSITY</div>
+        </div>
+
+        <div class="game make-it-fisheye">
+          <div class="game-title">MAKE IT FISHEYE</div>
+        </div>
+      </div>
+      <button class="seeAll">SEE ALL</button>
+    </div>
+  </div>
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="../../assets/logo.svg" alt="logo" />
+    </div>
+    <div class="footer-menu-container">
+      <div class="submenu-footer">
+        <span>About</span>
+      </div>
+      <div class="submenu-footer">
+        <span>Careers</span>
+      </div>
+      <div class="submenu-footer">
+        <span>Events</span>
+      </div>
+      <div class="submenu-footer">
+        <span>Products</span>
+      </div>
+      <div class="submenu-footer">
+        <span>Support</span>
+      </div>
+    </div>
+    <div class="social-contianer">
+      <div class="facebook social">
+        <img src="../../assets/icon-facebook.svg" alt="facebook" />
+      </div>
+      <div class="twitter social">
+        <img src="../../assets/icon-twitter.svg" alt="twitter" />
+      </div>
+      <div class="pininterest social">
+        <img src="../../assets/icon-pinterest.svg" alt="pininterest" />
+      </div>
+      <div class="instagram social">
+        <img src="../../assets/icon-instagram.svg" alt="instagram" />
+      </div>
+    </div>
+    <div class="right-reserved-container">
+      &copy; 2021 Loopstudios. All rights reserved.
+    </div>
+  </div>
+</div>
+<div *ngIf="menu" class="menu-open">
+  <div class="header-menu">
+    <div class="logo-menu">
+      <div class="logo">
+        <img src="../../assets/logo.svg" alt="logo" />
+      </div>
+      <div class="menu">
+        <img
+          src="../../assets/icon-close.svg"
+          alt="icon-close"
+          (click)="onClickMenu()"
+        />
+      </div>
+    </div>
+    <div class="submenu-container">
+      <div class="submenu">ABOUT</div>
+      <div class="submenu">CAREERS</div>
+      <div class="submenu">EVENTS</div>
+      <div class="submenu">PRODUCTS</div>
+      <div class="submenu">SUPPORT</div>
+    </div>
+  </div>
+</div>
